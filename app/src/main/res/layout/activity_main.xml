@@ -38,6 +38,7 @@
         app:layout_constraintTop_toBottomOf="@id/colorPickerView" />
 
     <com.happytech.colorpickerview.ColorAlphaSlider
+        android:id="@+id/colorAlphaSlider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_16sdp"

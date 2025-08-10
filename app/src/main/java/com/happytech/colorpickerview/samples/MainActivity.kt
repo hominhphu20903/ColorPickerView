@@ -1,5 +1,6 @@
 package com.happytech.colorpickerview.samples
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.happytech.colorpickerview.samples.databinding.ActivityMainBinding
@@ -15,5 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.colorPickerView.hueSliderView = binding.hueSlider
+        binding.colorPickerView.alphaSliderView = binding.colorAlphaSlider
     }
 }

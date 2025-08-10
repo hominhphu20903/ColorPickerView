@@ -49,8 +49,6 @@ abstract class ColorSlider(context: Context, attributeSet: AttributeSet?) :
     protected var circleYFactor = 0f
 
     protected var circleColor: Int = Color.TRANSPARENT
-    protected var pickerOutlineColor: Int = ColorUtils.blendARGB(Color.WHITE, Color.BLACK, 0.1f)
-
     protected var isFirstTimeLaying = true
     protected var isRestoredState = false
     protected var isSliderChangingState = false
@@ -70,7 +68,7 @@ abstract class ColorSlider(context: Context, attributeSet: AttributeSet?) :
             invalidate()
         }
 
-    var pickerOutlineSize = 1f
+    var pickerOutlineSize = dp(1)
         set(value) {
             field = value
             invalidate()
@@ -89,7 +87,7 @@ abstract class ColorSlider(context: Context, attributeSet: AttributeSet?) :
             invalidate()
         }
 
-    var thumbOutlineSize = dp(2)
+    var thumbOutlineSize = dp(1)
         set(value) {
             field = value
             invalidate()
@@ -100,6 +98,13 @@ abstract class ColorSlider(context: Context, attributeSet: AttributeSet?) :
             field = value
             invalidate()
         }
+
+    var pickerOutlineColor: Int = ColorUtils.blendARGB(Color.WHITE, Color.BLACK, 0.1f)
+        set(value) {
+            field = value
+            invalidate()
+        }
+
 
     private var defaultPaddingVertical = dp(12)
     private var wrapContentSize = dp(48).toInt()
