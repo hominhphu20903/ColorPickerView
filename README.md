@@ -145,7 +145,7 @@ slider.thumbStrokeColor = Color.BLACK
 // Slider bar stroke cap style
 slider.lineStrokeCap = Paint.Cap.ROUND
 ```
-You can change the color of `KavehColorPicker' via 'color' setter
+You can change the color of `ColorPicker' via 'color' setter
 ```kotlin
 colorPicker.color = Color.parseColor("#962626")
 colorPicker.color = Color.argb(128,255,255,255)
