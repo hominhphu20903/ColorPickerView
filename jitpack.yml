@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew :my-library:publishToMavenLocal
+  - ./gradlew :colorpickerview:publishToMavenLocal

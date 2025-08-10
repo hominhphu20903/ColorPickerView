@@ -14,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.colorPickerView.hue = binding.hueSlider
+        binding.colorPickerView.hueSliderView = binding.hueSlider
     }
 }
