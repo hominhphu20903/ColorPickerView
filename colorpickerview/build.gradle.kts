@@ -43,7 +43,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.hominhphu20903"
                 artifactId = "colorpickerview"
-                version = "1.0.2"
+                version = "1.0.1"
             }
         }
     }
