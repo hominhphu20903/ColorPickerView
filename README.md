@@ -159,3 +159,13 @@ colorPicker.color = Color.argb(128,255,255,255)
 colorPicker.alphaSliderView = alphaSlider
 colorPicker.hueSliderView = hueSlider
 ```
+# License
+```
+MIT License
+
+Copyright (c) 2025 Mohammad Hossein Naderi
+https://github.com/Mohammad3125/KavehColorPicker
+
+All modifications and enhancements Copyright (c) 2025
+```
+
