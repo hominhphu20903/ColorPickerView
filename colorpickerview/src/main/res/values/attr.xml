@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorPickerView">
+        <attr name="sliderBarStrokeCap" format="enum">
+            <enum name="Butt" value="0" />
+            <enum name="Round" value="1" />
+            <enum name="Square" value="2" />
+        </attr>
+
+        <attr name="cpv_pickerBorderRadius" format="dimension"/>
+        <attr name="cpv_pickerOutlineSize" format="dimension"/>
+        <attr name="cpv_pickerOutlineColor" format="color"/>
+
+        <attr name="cpv_thumbOutlineSize" format="dimension"/>
+        <attr name="cpv_thumbOutlineColor" format="color"/>
+
+        <attr name="cpv_thumbStrokeSize" format="dimension"/>
+        <attr name="cpv_thumbStrokeColor" format="color"/>
+    </declare-styleable>
+
+</resources>
