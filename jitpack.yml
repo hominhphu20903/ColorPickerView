@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
-install:
-  - ./gradlew :colorpickerview:publishToMavenLocal
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh
